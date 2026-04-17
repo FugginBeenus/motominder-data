@@ -1,0 +1,8 @@
+{
+  "_comment": "Hand-curated additions merged into motorcycles.json by the weekly updater. Never overwritten by the Wikidata sync — use this for models the automation misses or for pre-release announcements. Edit directly on GitHub and the app gets it on the next launch.",
+  "popularMakes": [],
+  "allMakes": [],
+  "models": {
+    "Triumph": ["Street Triple 765 RX"]
+  }
+}
