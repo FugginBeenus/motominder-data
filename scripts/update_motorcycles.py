@@ -54,6 +54,23 @@ MANUFACTURER_ALIASES = {
     "Indian Motorcycle": "Indian",
     "Lightning Motorcycles": "Lightning",
     "Zero Motorcycles": "Zero",
+    # Corporate / regional variants returned by Wikidata
+    "Yamaha Motor Company": "Yamaha",
+    "Yamaha Motor": "Yamaha",
+    "Suzuki Motor Corporation": "Suzuki",
+    "Suzuki Motor": "Suzuki",
+    "Kawasaki Heavy Industries": "Kawasaki",
+    "Kawasaki Motors": "Kawasaki",
+    "Honda Motor Company": "Honda",
+    "Honda Motor": "Honda",
+    "Norton Motorcycle Company": "Norton",
+    "Norton Motorcycles": "Norton",
+    "Royal Enfield India": "Royal Enfield",
+    "Kwang Yang Motor": "KYMCO",
+    "Kwang Yang Motor Co.": "KYMCO",
+    "Harley Davidson": "Harley-Davidson",
+    "Piaggio & C.": "Piaggio",
+    "MV Agusta Motor": "MV Agusta",
 }
 
 # Safety thresholds — if the query returns way too few or too many results,
@@ -64,7 +81,7 @@ MAX_DELTA_PER_RUN = 200   # if >200 new models appear in one week, open a PR ins
 
 SPARQL_QUERY = """
 SELECT DISTINCT ?model ?modelLabel ?manufacturerLabel ?startYear WHERE {
-  ?model wdt:P31/wdt:P279* wd:Q15056993 .   # instance of motorcycle model (or subclass)
+  ?model wdt:P31/wdt:P279* wd:Q34493 .       # instance of motorcycle (or subclass)
   ?model wdt:P176 ?manufacturer .            # manufacturer
   OPTIONAL {
     ?model wdt:P571 ?inception .
