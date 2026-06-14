@@ -1,6 +1,6 @@
 {
-  "version": "2026-05-31",
-  "generatedAt": "2026-05-31T08:41:35.153404+00:00",
+  "version": "2026-06-14",
+  "generatedAt": "2026-06-14T09:29:44.641666+00:00",
   "source": "wikidata + manual",
   "popularMakes": [
     "Honda",
@@ -239,6 +239,7 @@
       "NC750X",
       "NSR250",
       "PCX150",
+      "RS750R",
       "Rebel 1100",
       "Rebel 300",
       "Rebel 500",
@@ -379,6 +380,7 @@
       "Carnaby",
       "Free",
       "Liberty",
+      "MP3",
       "Medley",
       "Typhoon",
       "Vespa",
