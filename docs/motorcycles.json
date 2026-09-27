@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-14",
-  "generatedAt": "2026-06-14T09:29:44.641666+00:00",
+  "version": "2026-09-27",
+  "generatedAt": "2026-09-27T11:20:45.187978+00:00",
   "source": "wikidata + manual",
   "popularMakes": [
     "Honda",
@@ -119,7 +119,8 @@
       "R28",
       "S 1000 R",
       "S 1000 RR",
-      "S 1000 XR"
+      "S 1000 XR",
+      "Schneekrad"
     ],
     "Benelli": [
       "900 Sei",
